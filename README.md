@@ -10,6 +10,7 @@ following libraries:
 - `libnettle`
 - `libmbedtls`
 - `libgcrypt`
+- `bearssl`
 
 It measures the number of modular exponentiations, RSA sign, and RSA verify
 (public exponent 65537) operations each library can perform within `TEST_DUR`
