@@ -49,6 +49,18 @@ def subst(x, cdict):
 
 VICTIMS = [
     {
+        "name":          "bearssl",
+        "location":      "https://bearssl.org/bearssl-###VERSION###.tar.gz",
+        "versions":      [ "0.6", ],
+        "cmd_configure": [ "rm", "-r", "build" ],
+        "cmd_build":     [ "make", "CONF=Unix", "-j###NPROCS###" ],
+        "cmd_install":   [ "true" ], # special hack-ish shell script
+        "build_env":     { "CC": "###CC###", "CFLAGS": "###CFLAGS###" },
+        "patches":       [],
+        "ldflags":       [ ],
+        "products":      [ "libbearssl.a" ],
+    },
+    {
         "name":          "openssl",
         "location":      "https://www.openssl.org/source/openssl-###VERSION###.tar.gz",
         "versions":      [ "3.0.7", ],
@@ -341,12 +353,23 @@ def main():
                                     patch_path = os.path.join(patches, p[1])
                                     patch(unpacked, patch_path)
 
+                            if "bearssl" in v["name"]:
+                                # Manually replace CC and CFLAGS in Unix.mk
+                                ls = open(f"{unpacked}/conf/Unix.mk", "r").readlines()
+                                ls = [ l.strip("\n") for l in ls if not l.startswith("CC =") and not l.startswith("CFLAGS =") ]
+                                ls.append(f"CC = {cc}")
+                                ls.append(f"CFLAGS = {CFLAGS}")
+                                open(f"{unpacked}/conf/Unix.mk", "w").write("\n".join(ls) + "\n")
+
                             _, stderr = shell(unpacked, v["cmd_configure"], v["build_env"], cdict)
                             #assert len(stderr) == 0
                             _, stderr = shell(unpacked, v["cmd_build"],     v["build_env"], cdict)
                             #assert len(stderr) == 0
                             _, stderr = shell(unpacked, v["cmd_install"],   v["build_env"], cdict)
                             #assert len(stderr) == 0
+                            if "bearssl" in v["name"]:
+                                shell(unpacked, [ "cp", "-r", f"build", f"{prefix}/lib" ], v["build_env"], cdict)
+                                shell(unpacked, [ "cp", "-r", f"inc", f"{prefix}/include" ], v["build_env"], cdict)
 
                         except Exception as e:
                             print(f"[!] Failed: {e}.")
