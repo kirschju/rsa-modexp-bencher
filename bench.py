@@ -185,10 +185,10 @@ def shell(execdir, args, envvars, cdict, wait_secs = 0, progbar_len = 70):
     env = dict(os.environ.copy() | envvars)
     env = { k: subst(env[k], cdict) for k in env.keys() }
 
-    _, outpath = tempfile.mkstemp()
-    _, errpath = tempfile.mkstemp()
-    stdout = open(outpath, "w")
-    stderr = open(errpath, "w")
+    outfd, outpath = tempfile.mkstemp()
+    errfd, errpath = tempfile.mkstemp()
+    stdout = os.fdopen(outfd)
+    stderr = os.fdopen(errfd)
 
     p = subprocess.Popen(args,
             stdin = subprocess.PIPE,
@@ -220,6 +220,9 @@ def shell(execdir, args, envvars, cdict, wait_secs = 0, progbar_len = 70):
 
     out.close()
     err.close()
+
+    os.unlink(outpath)
+    os.unlink(errpath)
 
     assert p.returncode == 0 # and len(tmperr) == 0 ## older versions of gmp produce non-pic code
 
