@@ -363,6 +363,11 @@ def main():
                                 ls.append(f"CC = {cc}")
                                 ls.append(f"CFLAGS = {CFLAGS}")
                                 open(f"{unpacked}/conf/Unix.mk", "w").write("\n".join(ls) + "\n")
+                                inner = open(f"{unpacked}/src/inner.h", "r").read()
+                                inner = inner.replace(
+                                    "#define BR_MAX_RSA_SIZE   4096",
+                                    "#define BR_MAX_RSA_SIZE   {max(BIT_LENS)}")
+                                open(f"{unpacked}/src/inner.h", "w").write(inner)
 
                             _, stderr = shell(unpacked, v["cmd_configure"], v["build_env"], cdict)
                             #assert len(stderr) == 0
