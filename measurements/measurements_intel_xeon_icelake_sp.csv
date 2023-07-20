@@ -1,0 +1,504 @@
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 1024 , 1441  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 1024 , 5400  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 1024 , 3001  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 1024 , 10167 
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 1024 , 2642  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 1024 , 9351  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 1024 , 5226  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 1024 , 15980 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 1024 , 105428
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 1024 , 35355 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 1024 , 33937 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 1024 , 1811823
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 1024 , 33232 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 73688 
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1024 , 27310 
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1024 , 24362 
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1024 , 25939 
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1024 , 24458 
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1024 , 26996 
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1024 , 21104 
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 1024 , 1507667
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 1024 , 72456 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 1024 , 720297
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 1024 , 4990  
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 1024 , 5940  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 1024 , 759605
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 1024 , 5300  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 1024 , 6101  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 1024 , 18485 
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 1024 , 8612  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 1024 , 8269  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 1024 , 748086
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 1024 , 18486 
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 1024 , 8669  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 1024 , 8284  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 1024 , 725903
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 1024 , 1212  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 1024 , 5041  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 1024 , 3313  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 1024 , 14164 
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 1024 , 2410  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 1024 , 9191  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 1024 , 5548  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 1024 , 20799 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 1024 , 105463
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 1024 , 34165 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 1024 , 33878 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 1024 , 1859316
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 1024 , 33349 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 73538 
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1024 , 27402 
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1024 , 24385 
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1024 , 27348 
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1024 , 24417 
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1024 , 27030 
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1024 , 21747 
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 1024 , 1519609
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 1024 , 72663 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 1024 , 719053
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 1024 , 4961  
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 1024 , 5951  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 1024 , 766663
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 1024 , 5139  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 1024 , 6109  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 1024 , 18865 
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 1024 , 9945  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 1024 , 9500  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 1024 , 769222
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 1024 , 18580 
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 1024 , 10052 
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 1024 , 9519  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 1024 , 737234
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 1536 , 396   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 1536 , 1577  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 1536 , 927   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 1536 , 2853  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 1536 , 840   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 1536 , 3268  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 1536 , 1623  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 1536 , 5573  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 1536 , 25815 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 1536 , 11737 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 1536 , 11047 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 1536 , 920385
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 1536 , 10906 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 11046 
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1536 , 8625  
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1536 , 7783  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1536 , 8451  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1536 , 7793  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 1536 , 8471  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 1536 , 7020  
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 1536 , 719638
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 1536 , 25664 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 1536 , 346422
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 1536 , 2133  
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 1536 , 3195  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 1536 , 367963
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 1536 , 2267  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 1536 , 3415  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 1536 , 6914  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 1536 , 3325  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 1536 , 3191  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 1536 , 404661
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 1536 , 6906  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 1536 , 3340  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 1536 , 3200  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 1536 , 395401
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 1536 , 322   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 1536 , 1372  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 1536 , 1008  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 1536 , 4113  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 1536 , 721   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 1536 , 3074  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 1536 , 1824  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 1536 , 7493  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 1536 , 25520 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 1536 , 11760 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 1536 , 11013 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 1536 , 935743
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 1536 , 10886 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 11032 
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1536 , 8624  
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1536 , 7772  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1536 , 8641  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1536 , 7795  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 1536 , 8474  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 1536 , 7024  
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 1536 , 723096
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 1536 , 25621 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 1536 , 347727
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 1536 , 2118  
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 1536 , 3187  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 1536 , 367983
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 1536 , 2184  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 1536 , 3415  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 1536 , 7054  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 1536 , 3588  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 1536 , 3465  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 1536 , 406839
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 1536 , 6992  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 1536 , 3606  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 1536 , 3472  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 1536 , 401392
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 2048 , 171   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 2048 , 680   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 2048 , 415   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 2048 , 858   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 2048 , 360   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 2048 , 1346  
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 2048 , 728   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 2048 , 2537  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 2048 , 32668 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 2048 , 5199  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 2048 , 4869  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 2048 , 556904
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 2048 , 4737  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 4684  
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 2048 , 3725  
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 2048 , 3404  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 2048 , 3757  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 2048 , 3414  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 2048 , 3694  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 2048 , 3009  
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 2048 , 419088
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 2048 , 12202 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 2048 , 202085
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 2048 , 1083  
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 2048 , 2007  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 2048 , 209086
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 2048 , 1116  
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 2048 , 2116  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 2048 , 3324  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 2048 , 1510  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 2048 , 1509  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 2048 , 241662
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 2048 , 3352  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 2048 , 1519  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 2048 , 1503  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 2048 , 236067
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 2048 , 136   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 2048 , 575   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 2048 , 435   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 2048 , 1275  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 2048 , 303   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 2048 , 1257  
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 2048 , 831   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 2048 , 3557  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 2048 , 32666 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 2048 , 5218  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 2048 , 4851  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 2048 , 561066
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 2048 , 4815  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 4866  
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 2048 , 3728  
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 2048 , 3404  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 2048 , 3744  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 2048 , 3408  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 2048 , 3699  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 2048 , 3131  
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 2048 , 421644
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 2048 , 12228 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 2048 , 202496
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 2048 , 1077  
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 2048 , 2009  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 2048 , 211888
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 2048 , 1086  
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 2048 , 2094  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 2048 , 3893  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 2048 , 1693  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 2048 , 1667  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 2048 , 245674
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 2048 , 3956  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 2048 , 1686  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 2048 , 1643  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 2048 , 235720
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 3072 , 39    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 3072 , 158   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 3072 , 129   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 3072 , 158   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 3072 , 99    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 3072 , 394   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 3072 , 242   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 3072 , 708   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 3072 , 5308  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 3072 , 1616  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 3072 , 1505  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 3072 , 263355
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 3072 , 1461  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 3072 , 1472  
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 3072 , 1233  
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 3072 , 1049  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 3072 , 1184  
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 3072 , 1048  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 3072 , 1163  
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 3072 , 956   
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 3072 , 204832
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 3072 , 3892  
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 3072 , 91544 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 3072 , 391   
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 3072 , 903   
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 3072 , 96468 
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 3072 , 396   
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 3072 , 967   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 3072 , 1277  
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 3072 , 543   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 3072 , 540   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 3072 , 125110
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 3072 , 1285  
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 3072 , 541   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 3072 , 543   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 3072 , 123271
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 3072 , 31    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 3072 , 128   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 3072 , 131   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 3072 , 128   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 3072 , 81    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 3072 , 343   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 3072 , 252   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 3072 , 1025  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 3072 , 5297  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 3072 , 1568  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 3072 , 1502  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 3072 , 266327
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 3072 , 1498  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 3072 , 1506  
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 3072 , 1264  
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 3072 , 1051  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 3072 , 1182  
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 3072 , 1049  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 3072 , 1111  
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 3072 , 923   
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 3072 , 205055
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 3072 , 3886  
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 3072 , 91453 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 3072 , 391   
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 3072 , 900   
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 3072 , 96301 
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 3072 , 387   
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 3072 , 979   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 3072 , 1387  
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 3072 , 585   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 3072 , 588   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 3072 , 127499
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 3072 , 1390  
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 3072 , 588   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 3072 , 590   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 3072 , 125923
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 4096 , 17    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 4096 , 68    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 4096 , 55    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 4096 , 68    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 4096 , 37    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 4096 , 146   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 4096 , 105   
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 4096 , 214   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 4096 , 2366  
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 4096 , 695   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 4096 , 636   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 4096 , 152723
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 4096 , 647   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 4096 , 650   
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 4096 , 571   
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 4096 , 452   
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 4096 , 575   
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 4096 , 452   
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 4096 , 558   
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 4096 , 405   
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 4096 , 125476
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 4096 , 1692  
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 4096 , 50552 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 4096 , 181   
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 4096 , 477   
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 4096 , 52972 
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 4096 , 184   
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 4096 , 507   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 4096 , 617   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 4096 , 241   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 4096 , 243   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 4096 , 73261 
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 4096 , 615   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 4096 , 240   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 4096 , 242   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 4096 , 72120 
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 4096 , 13    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 4096 , 54    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 4096 , 56    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 4096 , 54    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 4096 , 30    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 4096 , 124   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 4096 , 109   
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 4096 , 320   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 4096 , 2331  
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 4096 , 693   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 4096 , 635   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 4096 , 154071
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 4096 , 643   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 4096 , 652   
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 4096 , 575   
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 4096 , 452   
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 4096 , 576   
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 4096 , 452   
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 4096 , 560   
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 4096 , 416   
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 4096 , 125507
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 4096 , 1693  
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 4096 , 50353 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 4096 , 181   
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 4096 , 477   
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 4096 , 52292 
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 4096 , 181   
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 4096 , 496   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 4096 , 694   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 4096 , 259   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 4096 , 263   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 4096 , 75201 
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 4096 , 697   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 4096 , 258   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 4096 , 259   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 4096 , 71808 
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 6144 , 5     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 6144 , 21    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 6144 , 17    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 6144 , 21    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 6144 , 13    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 6144 , 53    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 6144 , 31    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 6144 , 74    
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 6144 , 731   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 6144 , 212   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 6144 , 193   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 6144 , 69888 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 6144 , 194   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 6144 , 194   
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 6144 , 200   
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 6144 , 136   
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 6144 , 200   
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 6144 , 137   
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 6144 , 195   
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 6144 , 127   
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 6144 , 65833 
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 6144 , 526   
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 6144 , 22839 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 6144 , 59    
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 6144 , 180   
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 6144 , 23931 
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 6144 , 60    
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 6144 , 189   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 6144 , 214   
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 6144 , 83    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 6144 , 82    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 6144 , 36051 
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 6144 , 215   
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 6144 , 84    
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 6144 , 82    
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 6144 , 36030 
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 6144 , 4     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 6144 , 17    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 6144 , 17    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 6144 , 17    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 6144 , 11    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 6144 , 43    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 6144 , 33    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 6144 , 115   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 6144 , 739   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 6144 , 212   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 6144 , 193   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 6144 , 70349 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 6144 , 196   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 6144 , 198   
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 6144 , 205   
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 6144 , 136   
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 6144 , 200   
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 6144 , 137   
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 6144 , 196   
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 6144 , 127   
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 6144 , 65893 
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 6144 , 526   
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 6144 , 22839 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 6144 , 60    
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 6144 , 181   
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 6144 , 23910 
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 6144 , 60    
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 6144 , 184   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 6144 , 230   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 6144 , 88    
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 6144 , 86    
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 6144 , 36626 
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 6144 , 230   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 6144 , 88    
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 6144 , 87    
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 6144 , 36418 
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_public               , 10 , 8192 , 3     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_public               , 10 , 8192 , 9     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_public               , 10 , 8192 , 7     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_public               , 10 , 8192 , 9     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i15_private              , 10 , 8192 , 5     
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i31_private              , 10 , 8192 , 20    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i32_private              , 10 , 8192 , 13    
+bearssl   , 0.6     , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , br_rsa_i62_private              , 10 , 8192 , 27    
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign_crt               , 10 , 8192 , 317   
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont                 , 10 , 8192 , 90    
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime       , 10 , 8192 , 85    
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_verify                 , 10 , 8192 , 39908 
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , EVP_PKEY_sign                   , 10 , 8192 , 84    
+openssl   , 3.0.7   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , BN_mod_exp_mont_consttime_x2    , 10 , 8192 , 86    
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 8192 , 95    
+gmp       , 6.2.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 8192 , 58    
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 8192 , 96    
+gmp       , 6.1.2   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 8192 , 58    
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm                        , 10 , 8192 , 94    
+gmp       , 5.1.3   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mpz_powm_sec                    , 10 , 8192 , 55    
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_verify_digest          , 10 , 8192 , 41505 
+nettle    , 3.8.1   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , rsa_sha1_sign_digest            , 10 , 8192 , 226   
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 8192 , 12634 
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 8192 , 26    
+mbedtls   , 3.3.0   , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 8192 , 85    
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_public              , 10 , 8192 , 13145 
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_mpi_exp_mod             , 10 , 8192 , 27    
+mbedtls   , 2.28.2  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , mbedtls_rsa_private             , 10 , 8192 , 88    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 8192 , 96    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 8192 , 36    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 8192 , 36    
+libgcrypt , 1.10.1  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 8192 , 20805 
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign_crt                , 10 , 8192 , 96    
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_mpi_powm                   , 10 , 8192 , 36    
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_sign                    , 10 , 8192 , 36    
+libgcrypt , 1.8.10  , gcc   , gcc (Debian 10.2.1-6) 10.2.1 20210110           , gcry_pk_verify                  , 10 , 8192 , 20628 
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_public               , 10 , 8192 , 2     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_public               , 10 , 8192 , 7     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_public               , 10 , 8192 , 7     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_public               , 10 , 8192 , 7     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i15_private              , 10 , 8192 , 4     
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i31_private              , 10 , 8192 , 16    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i32_private              , 10 , 8192 , 14    
+bearssl   , 0.6     , clang , Debian clang version 11.0.1-2                   , br_rsa_i62_private              , 10 , 8192 , 43    
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign_crt               , 10 , 8192 , 314   
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont                 , 10 , 8192 , 91    
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime       , 10 , 8192 , 83    
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_verify                 , 10 , 8192 , 40137 
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , EVP_PKEY_sign                   , 10 , 8192 , 85    
+openssl   , 3.0.7   , clang , Debian clang version 11.0.1-2                   , BN_mod_exp_mont_consttime_x2    , 10 , 8192 , 84    
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 8192 , 97    
+gmp       , 6.2.1   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 8192 , 58    
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 8192 , 96    
+gmp       , 6.1.2   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 8192 , 58    
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm                        , 10 , 8192 , 94    
+gmp       , 5.1.3   , clang , Debian clang version 11.0.1-2                   , mpz_powm_sec                    , 10 , 8192 , 55    
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_verify_digest          , 10 , 8192 , 41384 
+nettle    , 3.8.1   , clang , Debian clang version 11.0.1-2                   , rsa_sha1_sign_digest            , 10 , 8192 , 226   
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 8192 , 12628 
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 8192 , 26    
+mbedtls   , 3.3.0   , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 8192 , 85    
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_public              , 10 , 8192 , 13172 
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_mpi_exp_mod             , 10 , 8192 , 26    
+mbedtls   , 2.28.2  , clang , Debian clang version 11.0.1-2                   , mbedtls_rsa_private             , 10 , 8192 , 86    
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 8192 , 103   
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 8192 , 38    
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 8192 , 38    
+libgcrypt , 1.10.1  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 8192 , 21169 
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign_crt                , 10 , 8192 , 103   
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_mpi_powm                   , 10 , 8192 , 38    
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_sign                    , 10 , 8192 , 37    
+libgcrypt , 1.8.10  , clang , Debian clang version 11.0.1-2                   , gcry_pk_verify                  , 10 , 8192 , 20512 
