@@ -23,7 +23,7 @@ For configuration possibilities, please check `bench.py`.
 ### Install dependencies:
 
 ```
-apt install gcc clang make build-essential cmake m4 libgpg-error-dev
+apt install gcc clang make build-essential cmake m4 libgpg-error-dev python3-pycryptodome
 ```
 
 ### Run:
