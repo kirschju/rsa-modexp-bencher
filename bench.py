@@ -63,7 +63,7 @@ VICTIMS = [
     {
         "name":          "openssl",
         "location":      "https://www.openssl.org/source/openssl-###VERSION###.tar.gz",
-        "versions":      [ "3.0.7", ],
+        "versions":      [ "3.4.0", "3.0.7", ],
         "cmd_configure": [ "./config", "--prefix=###PREFIX###", "--openssldir=###PREFIX###", "--libdir=lib" ],
         "cmd_build":     [ "make", "-j###NPROCS###" ],
         "cmd_install":   [ "make", "install" ],
@@ -75,7 +75,7 @@ VICTIMS = [
     {
         "name":          "gmp",
         "location":      "https://gmplib.org/download/gmp/gmp-###VERSION###.tar.bz2",
-        "versions":      [ "6.2.1", "6.1.2", "5.1.3" ],
+        "versions":      [ "6.3.0", "6.2.1", "6.1.2", ],
         "cmd_configure": [ "./configure", "--prefix=###PREFIX###" ],
         "cmd_build":     [ "make", "-j###NPROCS###" ],
         "cmd_install":   [ "make", "install" ],
@@ -87,7 +87,7 @@ VICTIMS = [
     {
         "name":          "nettle",
         "location":      "https://ftp.gnu.org/gnu/nettle/nettle-###VERSION###.tar.gz",
-        "versions":      [ "3.8.1", ],
+        "versions":      [ "3.10", "3.8.1", ],
         "cmd_configure": [ "./configure",
                            "--with-lib-path=###GMPPATH###/lib",
                            "--with-include-path=###GMPPATH###/include",
@@ -102,8 +102,8 @@ VICTIMS = [
     {
         "name":          "mbedtls",
         "location":      "https://github.com/Mbed-TLS/mbedtls/archive/refs/tags/v###VERSION###.tar.gz",
-        "versions":      [ "3.3.0", "2.28.2", ],
-        "cmd_configure": [ "cmake", "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_PREFIX=###PREFIX###", "." ],
+        "versions":      [ "3.6.2", "3.3.0", "2.28.2", ],
+        "cmd_configure": [ "cmake", "-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_INSTALL_PREFIX=###PREFIX###", "-DMBEDTLS_FATAL_WARNINGS=OFF", "." ],
         "cmd_build":     [ "make", "-j###NPROCS###" ],
         "cmd_install":   [ "make", "install" ],
         "build_env":     { "CC": "###CC###", "CFLAGS": "###CFLAGS### -DMBEDTLS_MPI_MAX_SIZE=2048" },
@@ -114,7 +114,7 @@ VICTIMS = [
     {
         "name":          "libgcrypt",
         "location":      "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-###VERSION###.tar.bz2",
-        "versions":      [ "1.10.1", "1.8.10", ],
+        "versions":      [ "1.11.0", "1.10.1", "1.8.10", ],
         "cmd_configure": [ "./configure", "--enable-static", "--prefix=###PREFIX###" ],
         "cmd_build":     [ "make", "-j###NPROCS###" ],
         "cmd_install":   [ "make", "install" ],
@@ -162,7 +162,7 @@ def unpack(archive, dest):
 
     print(f"[+] Unpacking {os.path.basename(archive)} ...")
     tempdir = tempfile.mkdtemp()
-    tar.extractall(path=tempdir)
+    tar.extractall(path=tempdir, filter='data')
     shutil.move(os.path.join(tempdir, dirname), dest)
 
 
