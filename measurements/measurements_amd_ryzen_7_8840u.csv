@@ -1,0 +1,336 @@
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_private              , 10 , 1024 , 4079  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_private              , 10 , 1024 , 14172 
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_private              , 10 , 1024 , 7364  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_private              , 10 , 1024 , 25228 
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_public               , 10 , 1024 , 2172  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_public               , 10 , 1024 , 8383  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_public               , 10 , 1024 , 4009  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_public               , 10 , 1024 , 18036 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 115996
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 1024 , 51108 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 1024 , 48140 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 1024 , 45937 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 1024 , 2613990
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 1024 , 156342
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 110332
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 1024 , 50544 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 1024 , 42512 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 1024 , 44326 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 1024 , 2186441
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 1024 , 147076
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1024 , 48171 
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1024 , 41384 
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1024 , 39791 
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1024 , 34879 
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1024 , 38232 
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1024 , 33144 
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 1024 , 134558
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 1024 , 2625395
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 1024 , 133077
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 1024 , 2587467
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1024 , 655725
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1024 , 31558 
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1024 , 17844 
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1024 , 1037927
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1024 , 8778  
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1024 , 6195  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1024 , 1116027
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1024 , 9051  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1024 , 7903  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1024 , 12716 
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1024 , 1062345
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1024 , 19302 
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1024 , 12323 
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1024 , 11957 
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1024 , 1001612
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1024 , 23394 
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1024 , 11889 
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1024 , 12460 
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1024 , 1034440
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1024 , 23318 
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1024 , 11650 
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_private              , 10 , 1024 , 3833  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_private              , 10 , 1024 , 14418 
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_private              , 10 , 1024 , 7766  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_private              , 10 , 1024 , 22806 
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_public               , 10 , 1024 , 2245  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_public               , 10 , 1024 , 8850  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_public               , 10 , 1024 , 5101  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_public               , 10 , 1024 , 16738 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 96250 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 1024 , 47287 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 1024 , 44050 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 1024 , 43636 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 1024 , 2406500
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 1024 , 147904
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 1024 , 103144
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 1024 , 48382 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 1024 , 45140 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 1024 , 43658 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 1024 , 2611539
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 1024 , 152819
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1024 , 43016 
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1024 , 39102 
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1024 , 37108 
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1024 , 32933 
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1024 , 37544 
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1024 , 32880 
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 1024 , 134513
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 1024 , 2578900
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 1024 , 131759
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 1024 , 2629953
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1024 , 721357
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1024 , 33293 
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1024 , 18755 
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1024 , 1110445
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1024 , 9626  
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1024 , 8048  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1024 , 1173099
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1024 , 9435  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1024 , 8332  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1024 , 13295 
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1024 , 1032161
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1024 , 23492 
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1024 , 12156 
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1024 , 13005 
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1024 , 976910
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1024 , 23744 
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1024 , 12443 
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1024 , 13451 
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1024 , 1049312
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1024 , 27118 
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1024 , 13121 
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_private              , 10 , 1536 , 1229  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_private              , 10 , 1536 , 4708  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_private              , 10 , 1536 , 2211  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_private              , 10 , 1536 , 9354  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_public               , 10 , 1536 , 626   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_public               , 10 , 1536 , 2523  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_public               , 10 , 1536 , 1140  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_public               , 10 , 1536 , 5467  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 34650 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 1536 , 15872 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 1536 , 14448 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 1536 , 13035 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 1536 , 1210501
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 1536 , 31027 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 13918 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 1536 , 15852 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 1536 , 14400 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 1536 , 14891 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 1536 , 1239720
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 1536 , 34365 
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1536 , 15607 
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1536 , 13670 
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1536 , 11955 
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1536 , 10753 
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 1536 , 11502 
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 1536 , 10464 
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 1536 , 43828 
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 1536 , 1321795
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 1536 , 43780 
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 1536 , 1312053
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1536 , 321289
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1536 , 12103 
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1536 , 5664  
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1536 , 530082
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1536 , 5275  
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1536 , 2907  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 1536 , 560325
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 1536 , 5380  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 1536 , 3312  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1536 , 4618  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1536 , 563653
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1536 , 9595  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1536 , 4518  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1536 , 4480  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1536 , 549899
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1536 , 9799  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1536 , 4451  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 1536 , 4526  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 1536 , 570326
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 1536 , 9652  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 1536 , 4455  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_private              , 10 , 1536 , 1321  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_private              , 10 , 1536 , 5205  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_private              , 10 , 1536 , 3026  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_private              , 10 , 1536 , 9019  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_public               , 10 , 1536 , 560   
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_public               , 10 , 1536 , 2437  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_public               , 10 , 1536 , 1607  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_public               , 10 , 1536 , 5209  
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 34332 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 1536 , 14896 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 1536 , 14657 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 1536 , 14830 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 1536 , 1280415
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 1536 , 34131 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 1536 , 14942 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 1536 , 16088 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 1536 , 14776 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 1536 , 14763 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 1536 , 1302905
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 1536 , 34420 
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1536 , 15557 
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1536 , 13067 
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1536 , 10654 
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1536 , 10061 
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 1536 , 11045 
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 1536 , 10455 
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 1536 , 43503 
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 1536 , 1292774
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 1536 , 41788 
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 1536 , 1236910
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1536 , 312314
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1536 , 12643 
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1536 , 5788  
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1536 , 520676
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1536 , 5244  
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1536 , 3436  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 1536 , 548355
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 1536 , 5498  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 1536 , 3407  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1536 , 4545  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1536 , 531845
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1536 , 8807  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1536 , 4509  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1536 , 4429  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1536 , 567766
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1536 , 9735  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1536 , 4386  
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 1536 , 4870  
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 1536 , 553037
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 1536 , 10350 
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 1536 , 4879  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_private              , 10 , 2048 , 535   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_private              , 10 , 2048 , 2028  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_private              , 10 , 2048 , 986   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_private              , 10 , 2048 , 4497  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_public               , 10 , 2048 , 258   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_public               , 10 , 2048 , 1048  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_public               , 10 , 2048 , 532   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_public               , 10 , 2048 , 2201  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 16674 
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 2048 , 7000  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 2048 , 6607  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 2048 , 6547  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 2048 , 785861
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 2048 , 47919 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 6688  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 2048 , 7196  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 2048 , 6629  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 2048 , 6433  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 2048 , 791028
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 2048 , 48677 
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 2048 , 6759  
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 2048 , 5873  
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 2048 , 5117  
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 2048 , 4471  
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 2048 , 4811  
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 2048 , 4335  
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 2048 , 20875 
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 2048 , 773925
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 2048 , 20268 
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 2048 , 779409
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 2048 , 189657
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 2048 , 6213  
+mbedtls   , 3.6.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 2048 , 2516  
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 2048 , 305559
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 2048 , 3237  
+mbedtls   , 3.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 2048 , 1756  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_public              , 10 , 2048 , 324366
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_rsa_private             , 10 , 2048 , 3068  
+mbedtls   , 2.28.2  , gcc   , gcc (GCC) 14.2.1 20240910                       , mbedtls_mpi_exp_mod             , 10 , 2048 , 1790  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 2048 , 2096  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 2048 , 338386
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 2048 , 4867  
+libgcrypt , 1.11.0  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 2048 , 2146  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 2048 , 2128  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 2048 , 352203
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 2048 , 4781  
+libgcrypt , 1.10.1  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 2048 , 2095  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_mpi_powm                   , 10 , 2048 , 2180  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_verify                  , 10 , 2048 , 336611
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign_crt                , 10 , 2048 , 4686  
+libgcrypt , 1.8.10  , gcc   , gcc (GCC) 14.2.1 20240910                       , gcry_pk_sign                    , 10 , 2048 , 2128  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_private              , 10 , 2048 , 551   
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_private              , 10 , 2048 , 2250  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_private              , 10 , 2048 , 1415  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_private              , 10 , 2048 , 4517  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i15_public               , 10 , 2048 , 273   
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i31_public               , 10 , 2048 , 1124  
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i32_public               , 10 , 2048 , 763   
+bearssl   , 0.6     , clang , clang version 18.1.8                            , br_rsa_i62_public               , 10 , 2048 , 2245  
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 17470 
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 2048 , 7182  
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 2048 , 6610  
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 2048 , 6576  
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 2048 , 744731
+openssl   , 3.4.0   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 2048 , 40642 
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime_x2    , 10 , 2048 , 6432  
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont                 , 10 , 2048 , 7051  
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , BN_mod_exp_mont_consttime       , 10 , 2048 , 6413  
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign                   , 10 , 2048 , 6220  
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_verify                 , 10 , 2048 , 756530
+openssl   , 3.0.7   , clang , clang version 18.1.8                            , EVP_PKEY_sign_crt               , 10 , 2048 , 46091 
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 2048 , 6760  
+gmp       , 6.3.0   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 2048 , 6210  
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 2048 , 5117  
+gmp       , 6.2.1   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 2048 , 4708  
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm                        , 10 , 2048 , 5116  
+gmp       , 6.1.2   , clang , clang version 18.1.8                            , mpz_powm_sec                    , 10 , 2048 , 4579  
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 2048 , 20430 
+nettle    , 3.10    , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 2048 , 763705
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_sign_digest            , 10 , 2048 , 19822 
+nettle    , 3.8.1   , clang , clang version 18.1.8                            , rsa_sha1_verify_digest          , 10 , 2048 , 757090
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 2048 , 181520
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 2048 , 5895  
+mbedtls   , 3.6.2   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 2048 , 2382  
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 2048 , 292094
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 2048 , 3190  
+mbedtls   , 3.3.0   , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 2048 , 1708  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_public              , 10 , 2048 , 322896
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_rsa_private             , 10 , 2048 , 3287  
+mbedtls   , 2.28.2  , clang , clang version 18.1.8                            , mbedtls_mpi_exp_mod             , 10 , 2048 , 1736  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 2048 , 2155  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 2048 , 347123
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 2048 , 4816  
+libgcrypt , 1.11.0  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 2048 , 2140  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 2048 , 2123  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 2048 , 331732
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 2048 , 4657  
+libgcrypt , 1.10.1  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 2048 , 2144  
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_mpi_powm                   , 10 , 2048 , 2256  
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_verify                  , 10 , 2048 , 361938
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign_crt                , 10 , 2048 , 5304  
+libgcrypt , 1.8.10  , clang , clang version 18.1.8                            , gcry_pk_sign                    , 10 , 2048 , 2261  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_private              , 10 , 3072 , 158   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_private              , 10 , 3072 , 650   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_private              , 10 , 3072 , 323   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_private              , 10 , 3072 , 1366  
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i15_public               , 10 , 3072 , 70    
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i31_public               , 10 , 3072 , 292   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i32_public               , 10 , 3072 , 165   
+bearssl   , 0.6     , gcc   , gcc (GCC) 14.2.1 20240910                       , br_rsa_i62_public               , 10 , 3072 , 627   
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 3072 , 2022  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 3072 , 2185  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 3072 , 2025  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 3072 , 2048  
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 3072 , 371074
+openssl   , 3.4.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 3072 , 16794 
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime_x2    , 10 , 3072 , 2062  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont                 , 10 , 3072 , 2231  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , BN_mod_exp_mont_consttime       , 10 , 3072 , 2066  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign                   , 10 , 3072 , 1949  
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_verify                 , 10 , 3072 , 370921
+openssl   , 3.0.7   , gcc   , gcc (GCC) 14.2.1 20240910                       , EVP_PKEY_sign_crt               , 10 , 3072 , 6981  
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 3072 , 2198  
+gmp       , 6.3.0   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 3072 , 1894  
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 3072 , 1644  
+gmp       , 6.2.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 3072 , 1419  
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm                        , 10 , 3072 , 1568  
+gmp       , 6.1.2   , gcc   , gcc (GCC) 14.2.1 20240910                       , mpz_powm_sec                    , 10 , 3072 , 1341  
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 3072 , 6762  
+nettle    , 3.10    , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 3072 , 375102
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_sign_digest            , 10 , 3072 , 6406  
+nettle    , 3.8.1   , gcc   , gcc (GCC) 14.2.1 20240910                       , rsa_sha1_verify_digest          , 10 , 3072 , 359917
