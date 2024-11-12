@@ -1,3 +1,4 @@
+#define _DEFAULT_SOURCE
 #include <unistd.h>
 #include <stdlib.h>
 #include <mbedtls/bignum.h>
@@ -19,18 +20,12 @@ int mbedtls_test_rnd_std_rand( void *rng_state,
                                unsigned char *output,
                                size_t len )
 {
-#if !defined(__OpenBSD__) && !defined(__NetBSD__)
-    size_t i;
-
     if( rng_state != NULL )
         rng_state  = NULL;
 
-    for( i = 0; i < len; ++i )
-        output[i] = rand();
+#if !defined(__OpenBSD__) && !defined(__NetBSD__)
+    getentropy(output, len);
 #else
-    if( rng_state != NULL )
-        rng_state = NULL;
-
     arc4random_buf( output, len );
 #endif /* !OpenBSD && !NetBSD */
 
